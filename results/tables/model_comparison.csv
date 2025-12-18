@@ -1,0 +1,4 @@
+Model,Inference_Time_ms,FPS,mAP_Score,100Dollar_mAP,10Dollar_mAP,1Dollar_mAP,20Dollar_mAP,50Dollar_mAP,5Dollar_mAP,Best_For
+SSD-MobileNet-v2,170.21,2.7,43.59,31.25,62.86,40.77,46.14,33.50,47.01,Best overall accuracy
+SSD-MobileNet-v2-FPNLite-320x320,134.51,2.0,42.89,55.52,61.79,35.40,47.63,19.72,37.30,Best speed-accuracy balance (RECOMMENDED)
+EfficientDet-d0,1284.34,0.5,13.75,3.75,19.61,6.67,4.51,35.45,12.50,Requires powerful hardware

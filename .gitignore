@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints
+
+# TensorFlow
+*.pb
+*.pbtxt
+saved_model/
+checkpoint/
+*.ckpt*
+
+# Dataset (large files)
+data/train/images/
+data/validation/images/
+data/test/images/
+*.tfrecord
+
+# Models (large files)
+models/*.tflite
+models/*/checkpoint/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Results
+results/outputs/
