@@ -2,7 +2,7 @@
 
 Get up and running with USD currency detection in 5 minutes!
 
-## 🚀 Option 1: Use Pre-trained Model (Fastest)
+## Option 1: Use Pre-trained Model (Fastest)
 
 ### Step 1: Install Dependencies
 ```bash
@@ -24,7 +24,7 @@ python scripts/detection/TFLite_detection_webcam.py \
 
 That's it! Point your webcam at US currency and see the detections.
 
-## 🏗️ Option 2: Train Your Own Model
+## Option 2: Train Your Own Model
 
 ### Step 1: Prepare Dataset
 ```bash
@@ -81,7 +81,7 @@ python ../scripts/evaluation/calculate_map_cartucho.py \
 ./scripts/evaluation/benchmark_inference.sh
 ```
 
-## 🍓 Raspberry Pi Deployment
+## Raspberry Pi Deployment
 
 ### Step 1: Install on Pi
 ```bash
@@ -150,4 +150,4 @@ pip install --force-reinstall tensorflow==2.8.0
 - Open an issue on GitHub
 - Review existing issues for solutions
 
-Happy detecting! 🎯
+Happy detecting!
